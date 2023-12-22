@@ -54,7 +54,7 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0003',
-    title: '亲爱的, 早上好',
+    title: '亲爱的吴瑕, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -68,10 +68,15 @@ const TEMPLATE_CONFIG = [
       
       空气质量：{{aqi.DATA}}
       {{notice.DATA}}
+      
       金山每日一句：{{note_ch.DATA}}
+      
       每日一言：{{one_talk.DATA}}
+      
       土味情话：{{earthy_love_words.DATA}}
+      
       朋友圈文案:{{moment_copyrighting.DATA}}
+      
       毒鸡汤：{{poison_chicken_soup.DATA}}
       
       ---
